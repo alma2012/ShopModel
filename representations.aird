@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:viewpoint="http://www.obeo.fr/dsl/viewpoint/1.1.0" xsi:schemaLocation="http://www.obeo.fr/dsl/viewpoint/description/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description" xmi:id="_RS6gER4bEeKsetjvV54bJw">
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cinematic="http://www.obeonetwork.org/dsl/cinematic/3.0.0" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:viewpoint="http://www.obeo.fr/dsl/viewpoint/1.1.0" xsi:schemaLocation="http://www.obeo.fr/dsl/viewpoint/description/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description" xmi:id="_RS6gER4bEeKsetjvV54bJw" selectedViews="_2GkFQB6jEeKKMvQPnVLo-A _2I0vEB6jEeKKMvQPnVLo-A _2I-gEB6jEeKKMvQPnVLo-A _2JBjYB6jEeKKMvQPnVLo-A _2JKtUB6jEeKKMvQPnVLo-A">
+  <models xmi:type="cinematic:CinematicRoot" href="Shop.cinematic#_pXONMB6VEeKhKf_Eh4EUBg"/>
   <eAnnotations xmi:type="description:DAnnotationEntry" xmi:id="_RS6gEh4bEeKsetjvV54bJw" source="Migration">
     <details>style</details>
     <details>someViewsAreHiddenDeactivation</details>
@@ -11,4 +12,19 @@
     <details>RoutingStyleDesynchronization</details>
     <details>sequenceAbsoluteBoundsFlag</details>
   </eAnnotations>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_2GkFQB6jEeKKMvQPnVLo-A" initialized="true">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.is.design/description/is.odesign#//@ownedViewpoints[name='Entity%20Views']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_2I0vEB6jEeKKMvQPnVLo-A" initialized="true">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_2I-gEB6jEeKKMvQPnVLo-A" initialized="true">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.graal.design/description/requirements.odesign#//@ownedViewpoints[name='VP_Graal_Req']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_2JBjYB6jEeKKMvQPnVLo-A" initialized="true">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.is.design/description/is.odesign#//@ownedViewpoints[name='SOA%20Views']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_2JKtUB6jEeKKMvQPnVLo-A" initialized="true">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.requirement.design/description/requirement.odesign#//@ownedViewpoints[name='Requirements']"/>
+  </ownedViews>
 </viewpoint:DAnalysis>
