@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oent:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmi:id="_XUFYUB4bEeKsetjvV54bJw" createdOn="2012-10-24T22:42:45.203+0200" modifiedOn="2012-10-25T09:38:59.583+0200">
+  <blocks xmi:id="_s_bqcB4bEeKsetjvV54bJw" createdOn="2012-10-24T22:45:21.448+0200" modifiedOn="2012-10-25T09:38:59.583+0200">
+    <entities xmi:id="_umH7cB4bEeKsetjvV54bJw" createdOn="2012-10-24T22:45:21.448+0200" modifiedOn="2012-10-24T22:50:45.119+0200" name="Customer">
+      <ownedAttributes xmi:id="_whWSAB4bEeKsetjvV54bJw" createdOn="2012-10-24T22:45:34.368+0200" modifiedOn="2012-10-24T22:49:08.216+0200" name="Login" multiplicity="1">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_23swEB4bEeKsetjvV54bJw" createdOn="2012-10-24T22:46:16.977+0200" modifiedOn="2012-10-24T22:49:05.800+0200" name="Email" multiplicity="1">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_IY-1gB4cEeKsetjvV54bJw" createdOn="2012-10-24T22:48:14.552+0200" modifiedOn="2012-10-24T22:49:03.289+0200" name="Password" multiplicity="1">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_JB86AB4cEeKsetjvV54bJw" createdOn="2012-10-24T22:48:18.848+0200" modifiedOn="2012-10-24T22:48:59.474+0200" name="RegistrationDate" multiplicity="1">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-E6wKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_axW7AB4cEeKsetjvV54bJw" createdOn="2012-10-24T22:50:17.904+0200" modifiedOn="2012-10-24T22:50:45.119+0200" name="First Name">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_bTsMAB4cEeKsetjvV54bJw" createdOn="2012-10-24T22:50:21.504+0200" modifiedOn="2012-10-24T22:50:40.154+0200" name="Last Name">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+    </entities>
+    <entities xmi:id="_vIUCgB4bEeKsetjvV54bJw" createdOn="2012-10-24T22:45:25.032+0200" modifiedOn="2012-10-24T23:20:40.427+0200" name="ProductInfo">
+      <ownedAttributes xmi:id="_XzPkEB4cEeKsetjvV54bJw" createdOn="2012-10-24T22:49:57.969+0200" modifiedOn="2012-10-24T23:20:25.195+0200" name="Label" multiplicity="1">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_oeW5sB4gEeKsetjvV54bJw" createdOn="2012-10-24T23:20:27.851+0200" modifiedOn="2012-10-24T23:20:34.266+0200" name="Description">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_YNB9EB4cEeKsetjvV54bJw" createdOn="2012-10-24T22:50:00.673+0200" modifiedOn="2012-10-24T22:51:05.901+0200" name="Category">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+    </entities>
+    <entities xmi:id="_qTjdkB4cEeKsetjvV54bJw" createdOn="2012-10-24T22:52:02.153+0200" modifiedOn="2012-10-24T23:16:31.475+0200" name="Cart">
+      <ownedReferences xmi:id="_zZIiAB4cEeKsetjvV54bJw" createdOn="2012-10-24T22:53:03.136+0200" modifiedOn="2012-10-24T22:54:19.606+0200" name="Customer" multiplicity="1" isPrimaryKey="true" type="_umH7cB4bEeKsetjvV54bJw"/>
+      <ownedReferences xmi:id="_7G1NgB4cEeKsetjvV54bJw" createdOn="2012-10-24T22:53:54.905+0200" modifiedOn="2012-10-24T23:16:31.475+0200" name="Products" multiplicity="0..*" type="_jChYkB4fEeKsetjvV54bJw"/>
+    </entities>
+    <entities xmi:id="_jChYkB4fEeKsetjvV54bJw" createdOn="2012-10-24T23:12:41.881+0200" modifiedOn="2012-10-25T09:38:59.583+0200" name="Product">
+      <ownedAttributes xmi:id="_YwXToB4cEeKsetjvV54bJw" createdOn="2012-10-24T22:50:04.378+0200" modifiedOn="2012-10-25T09:38:59.583+0200" name="Stock" multiplicity="1">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAawKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_ZPF3AB4cEeKsetjvV54bJw" createdOn="2012-10-24T22:50:07.600+0200" modifiedOn="2012-10-24T23:13:54.059+0200" name="Price">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5GlIKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedReferences xmi:id="_wsLsMB4fEeKsetjvV54bJw" createdOn="2012-10-24T23:14:13.491+0200" modifiedOn="2012-10-24T23:19:23.610+0200" name="Infos" type="_vIUCgB4bEeKsetjvV54bJw"/>
+    </entities>
+  </blocks>
+</oent:Root>

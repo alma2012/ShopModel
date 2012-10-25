@@ -1,0 +1,4 @@
+Problématiques ici : Un Cart (Panier), c’est une liste de produits achetés par un Customer. 
+Le soucis, c’est si un Customer achète deux fois le même produit, il faut trouver un moyen de le renseigner. 
+Même problème si un article change de prix (il faut retenir le prix d’achat, pas le prix actuel du produit)
+Il faudra sans doute distinguer les Produits en vitrine des Produits Achetés par un Customer X, sans doute avec une nouvelle Entity
