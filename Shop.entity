@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<oent:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmi:id="_cU-hAR9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:01.261+0200" modifiedOn="2012-10-26T14:41:00.584+0200">
-  <blocks xmi:id="_gmL3gB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:33.390+0200" modifiedOn="2012-10-26T14:41:00.584+0200" name="Main">
-    <entities xmi:id="_hnBpcB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:36.712+0200" modifiedOn="2012-10-26T14:31:47.783+0200" name="Customer">
+<oent:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmi:id="_cU-hAR9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:01.261+0200" modifiedOn="2012-10-26T15:53:36.428+0200">
+  <blocks xmi:id="_gmL3gB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:33.390+0200" modifiedOn="2012-10-26T15:53:36.428+0200" name="Main">
+    <entities xmi:id="_hnBpcB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:36.712+0200" modifiedOn="2012-10-26T15:53:36.428+0200" name="Customer">
       <ownedAttributes xmi:id="_lAs7AB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:59.536+0200" modifiedOn="2012-10-26T14:31:06.239+0200" name="Login" multiplicity="1">
         <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
       </ownedAttributes>
@@ -20,6 +20,7 @@
       <ownedAttributes xmi:id="_6xcqgB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:30:25.576+0200" modifiedOn="2012-10-26T14:31:47.783+0200" name="Last Name">
         <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
       </ownedAttributes>
+      <ownedReferences xmi:id="_gW95UB90EeK_mMxxmiaP2A" createdOn="2012-10-26T15:53:22.277+0200" modifiedOn="2012-10-26T15:53:36.428+0200" name="Cart" multiplicity="1" type="_tCiOAB9pEeK_mMxxmiaP2A"/>
     </entities>
     <entities xmi:id="_IjtggB9pEeK_mMxxmiaP2A" description="Contient les informations &quot;génériques&quot; d'un produit (ce qui ne changera pas)" createdOn="2012-10-26T14:31:58.088+0200" modifiedOn="2012-10-26T14:33:48.008+0200" name="ProductInfo">
       <ownedAttributes xmi:id="_P4YoAB9pEeK_mMxxmiaP2A" createdOn="2012-10-26T14:32:47.232+0200" modifiedOn="2012-10-26T14:33:14.600+0200" name="Label" multiplicity="1">
