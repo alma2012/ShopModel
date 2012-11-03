@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.obeonetwork.dsl.soa:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/2.0.0" xmlns:org.obeonetwork.dsl.soa="http://www.obeonetwork.org/dsl/soa/2.0.0" xmi:id="_Hvn0UB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:00:30.613+0200" modifiedOn="2012-10-29T12:47:13.024+0100">
-  <ownedNamespaces xsi:type="org.obeonetwork.dsl.soa:System" xmi:id="_mJ7aoB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:03:54.698+0200" modifiedOn="2012-10-29T12:47:13.024+0100" name="ShopSystem">
+<org.obeonetwork.dsl.soa:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/2.0.0" xmlns:org.obeonetwork.dsl.soa="http://www.obeonetwork.org/dsl/soa/2.0.0" xmi:id="_Hvn0UB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:00:30.613+0200" modifiedOn="2012-11-03T21:59:54.196+0100">
+  <ownedNamespaces xsi:type="org.obeonetwork.dsl.soa:System" xmi:id="_mJ7aoB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:03:54.698+0200" modifiedOn="2012-11-03T21:59:54.196+0100" name="ShopSystem">
     <ownedComponents xmi:id="_ph1xoB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:05:50.797+0200" modifiedOn="2012-10-29T12:41:54.820+0100" name="UsersManager">
       <ownedServices xmi:id="_CciUoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:07:28.350+0200" modifiedOn="2012-10-29T12:41:54.820+0100" name="UserAuthentifications">
         <ownedInterface xmi:id="_U2XLoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:09:20.375+0200" modifiedOn="2012-10-29T12:41:54.820+0100" name="UserAuthentifications">
@@ -34,7 +34,7 @@
         </ownedInterface>
       </ownedServices>
     </ownedComponents>
-    <ownedComponents xmi:id="_qR58oB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:05:58.989+0200" modifiedOn="2012-10-29T12:47:13.024+0100" name="ShopManager">
+    <ownedComponents xmi:id="_qR58oB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:05:58.989+0200" modifiedOn="2012-11-03T21:59:54.196+0100" name="ShopManager">
       <ownedServices xmi:id="_KENQoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:09:01.201+0200" modifiedOn="2012-10-29T12:47:13.024+0100" name="ProductsSalesManagement">
         <ownedInterface xmi:id="_QViZ4B9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:23:03.351+0200" modifiedOn="2012-10-29T12:47:13.024+0100" name="ProductsSalesManagement">
           <ownedOperations xmi:id="_R-bDQB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:23:19.576+0200" modifiedOn="2012-10-29T12:47:02.579+0100" name="add_product_to_shop" kind="ONE_WAY">
@@ -134,8 +134,18 @@
           </ownedOperations>
         </ownedInterface>
       </ownedServices>
+      <ownedServices xmi:id="_Byt4cCX5EeKEXaj7iEH07w" createdOn="2012-11-03T21:57:39.356+0100" modifiedOn="2012-11-03T21:59:54.196+0100" name="ProductsPublicInterface">
+        <ownedInterface xmi:id="_HkTckCX5EeKEXaj7iEH07w" createdOn="2012-11-03T21:58:33.645+0100" modifiedOn="2012-11-03T21:59:54.196+0100" name="ProductsPublicInterface">
+          <ownedOperations xmi:id="_QBwKACX5EeKEXaj7iEH07w" createdOn="2012-11-03T21:58:51.244+0100" modifiedOn="2012-11-03T21:59:54.196+0100" name="getProductList">
+            <output xmi:id="_Rr4wkCX5EeKEXaj7iEH07w" createdOn="2012-11-03T21:58:59.669+0100" modifiedOn="2012-11-03T21:59:54.196+0100" name="products" lower="0">
+              <type xsi:type="oent:Entity" href="Shop.entity#_a_mNAB9pEeK_mMxxmiaP2A"/>
+            </output>
+          </ownedOperations>
+        </ownedInterface>
+      </ownedServices>
     </ownedComponents>
     <ownedComponents xmi:id="_tFCyoB9tEeK_mMxxmiaP2A" description="Inutilisé pour le moment" createdOn="2012-10-26T15:06:21.017+0200" modifiedOn="2012-10-26T15:06:26.235+0200" name="AdministrationManager"/>
+    <ownedComponents xmi:id="_8oX6gCX4EeKEXaj7iEH07w" createdOn="2012-11-03T21:56:37.166+0100" modifiedOn="2012-11-03T21:56:46.571+0100"/>
     <ownedDtoRegistry xmi:id="_PpzKsB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:15:48.274+0200" modifiedOn="2012-10-26T15:17:18.918+0200"/>
   </ownedNamespaces>
 </org.obeonetwork.dsl.soa:System>
