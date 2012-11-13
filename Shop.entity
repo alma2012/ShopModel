@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<oent:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/2.0.0" xmi:id="_cU-hAR9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:01.261+0200" modifiedOn="2012-11-13T08:26:59.112+0100">
-  <blocks xmi:id="_gmL3gB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:33.390+0200" modifiedOn="2012-11-13T08:26:59.112+0100" name="Main">
+<oent:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/2.0.0" xmi:id="_cU-hAR9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:01.261+0200" modifiedOn="2012-11-13T08:48:04.204+0100">
+  <blocks xmi:id="_gmL3gB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:33.390+0200" modifiedOn="2012-11-13T08:48:04.204+0100" name="Main">
     <entities xmi:id="_hnBpcB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:36.712+0200" modifiedOn="2012-11-13T08:26:59.112+0100" name="Customer">
       <ownedAttributes xmi:id="_lAs7AB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:59.536+0200" modifiedOn="2012-11-13T08:24:51.655+0100" name="Login" multiplicity="1">
         <metadatas xmi:id="_NqhVcS1jEeKWJvAGPulN_A">
@@ -52,7 +52,22 @@
       </ownedAttributes>
       <ownedReferences xmi:id="_h_hzkB9pEeK_mMxxmiaP2A" createdOn="2012-10-26T14:34:48.777+0200" modifiedOn="2012-10-26T14:39:31.984+0200" name="Informations" multiplicity="1" type="_IjtggB9pEeK_mMxxmiaP2A"/>
     </entities>
-    <entities xmi:id="_tCiOAB9pEeK_mMxxmiaP2A" description="Panier d'un Customer" createdOn="2012-10-26T14:36:02.912+0200" modifiedOn="2012-10-26T14:41:00.584+0200" name="Cart">
+    <entities xmi:id="_tCiOAB9pEeK_mMxxmiaP2A" description="Panier d'un Customer" createdOn="2012-10-26T14:36:02.912+0200" modifiedOn="2012-11-13T08:48:04.204+0100" name="Cart">
+      <ownedAttributes xmi:id="_5btA0C1kEeKWJvAGPulN_A" createdOn="2012-11-13T08:36:54.878+0100" modifiedOn="2012-11-13T08:46:32.931+0100" name="id" multiplicity="1" isPrimaryKey="true">
+        <metadatas xmi:id="_PkckIC1mEeKWJvAGPulN_A">
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_QMHoIC1mEeKWJvAGPulN_A" title="Min(10)"/>
+        </metadatas>
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAawKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_BSObsC1mEeKWJvAGPulN_A" createdOn="2012-11-13T08:44:57.068+0100" modifiedOn="2012-11-13T08:48:04.203+0100" name="customer_id" multiplicity="1">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAawKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_HiFQMC1mEeKWJvAGPulN_A" createdOn="2012-11-13T08:45:38.995+0100" modifiedOn="2012-11-13T08:46:00.978+0100" name="product_id" multiplicity="1">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAawKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_L9qqsC1mEeKWJvAGPulN_A" createdOn="2012-11-13T08:46:08.731+0100" modifiedOn="2012-11-13T08:46:24.642+0100" name="quantity" multiplicity="1">
+        <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAawKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
       <ownedReferences xmi:id="_GiYsgB9qEeK_mMxxmiaP2A" createdOn="2012-10-26T14:38:54.025+0200" modifiedOn="2012-10-26T14:39:23.129+0200" name="Products" multiplicity="0..*" type="_w9xUgB9pEeK_mMxxmiaP2A"/>
       <ownedReferences xmi:id="_XIzFIB9qEeK_mMxxmiaP2A" createdOn="2012-10-26T14:40:45.426+0200" modifiedOn="2012-10-26T14:41:00.584+0200" name="Customer" multiplicity="1" type="_hnBpcB9oEeK_mMxxmiaP2A"/>
     </entities>
