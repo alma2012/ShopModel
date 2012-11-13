@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.obeonetwork.dsl.soa:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/2.0.0" xmlns:org.obeonetwork.dsl.soa="http://www.obeonetwork.org/dsl/soa/2.0.0" xmi:id="_Hvn0UB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:00:30.613+0200" modifiedOn="2012-11-03T21:59:54.196+0100">
-  <ownedNamespaces xsi:type="org.obeonetwork.dsl.soa:System" xmi:id="_mJ7aoB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:03:54.698+0200" modifiedOn="2012-11-03T21:59:54.196+0100" name="ShopSystem">
-    <ownedComponents xmi:id="_ph1xoB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:05:50.797+0200" modifiedOn="2012-10-29T12:41:54.820+0100" name="UsersManager">
-      <ownedServices xmi:id="_CciUoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:07:28.350+0200" modifiedOn="2012-10-29T12:41:54.820+0100" name="UserAuthentifications">
-        <ownedInterface xmi:id="_U2XLoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:09:20.375+0200" modifiedOn="2012-10-29T12:41:54.820+0100" name="UserAuthentifications">
+<org.obeonetwork.dsl.soa:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/2.0.0" xmlns:org.obeonetwork.dsl.soa="http://www.obeonetwork.org/dsl/soa/2.0.0" xmi:id="_Hvn0UB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:00:30.613+0200" modifiedOn="2012-11-13T21:25:29.601+0100">
+  <ownedNamespaces xsi:type="org.obeonetwork.dsl.soa:System" xmi:id="_mJ7aoB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:03:54.698+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="ShopSystem">
+    <ownedComponents xmi:id="_ph1xoB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:05:50.797+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="UsersManager">
+      <ownedServices xmi:id="_CciUoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:07:28.350+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="UserAuthentifications">
+        <ownedInterface xmi:id="_U2XLoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:09:20.375+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="UserAuthentifications">
           <ownedOperations xmi:id="_cQh3IB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:10:05.312+0200" modifiedOn="2012-10-29T12:41:54.820+0100" name="register_user">
             <input xmi:id="_z7l-QB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:12:43.103+0200" modifiedOn="2012-10-26T15:14:11.039+0200" name="login">
               <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
@@ -24,9 +24,13 @@
               <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAqwKEd2XLNOhkJIazw"/>
             </output>
           </ownedOperations>
-          <ownedOperations xmi:id="_xz88UB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:12:31.820+0200" modifiedOn="2012-10-26T15:48:59.056+0200" name="login_user">
-            <input xmi:id="_E6P3wB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:14:42.092+0200" modifiedOn="2012-10-26T15:14:42.092+0200" name="login"/>
-            <input xmi:id="_FhT3wB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:14:46.613+0200" modifiedOn="2012-10-26T15:14:46.613+0200" name="password"/>
+          <ownedOperations xmi:id="_xz88UB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:12:31.820+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="login_user">
+            <input xmi:id="_E6P3wB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:14:42.092+0200" modifiedOn="2012-11-13T21:25:13.827+0100" name="login">
+              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+            </input>
+            <input xmi:id="_FhT3wB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:14:46.613+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="password">
+              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+            </input>
             <output xmi:id="_3PKAwB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:13:05.056+0200" modifiedOn="2012-10-26T15:48:59.056+0200" name="user">
               <type xsi:type="oent:Entity" href="Shop.entity#_hnBpcB9oEeK_mMxxmiaP2A"/>
             </output>
@@ -146,6 +150,18 @@
     </ownedComponents>
     <ownedComponents xmi:id="_tFCyoB9tEeK_mMxxmiaP2A" description="Inutilisé pour le moment" createdOn="2012-10-26T15:06:21.017+0200" modifiedOn="2012-10-26T15:06:26.235+0200" name="AdministrationManager"/>
     <ownedComponents xmi:id="_8oX6gCX4EeKEXaj7iEH07w" createdOn="2012-11-03T21:56:37.166+0100" modifiedOn="2012-11-03T21:56:46.571+0100"/>
-    <ownedDtoRegistry xmi:id="_PpzKsB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:15:48.274+0200" modifiedOn="2012-10-26T15:17:18.918+0200"/>
+    <ownedDtoRegistry xmi:id="_PpzKsB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:15:48.274+0200" modifiedOn="2012-11-08T14:56:47.465+0100">
+      <ownedCategories xmi:id="_tmU6UCmrEeKJlbl7jX3YYA" createdOn="2012-11-08T14:53:51.438+0100" modifiedOn="2012-11-08T14:56:47.465+0100" name="Main">
+        <types xsi:type="org.obeonetwork.dsl.soa:ServiceDTO" xmi:id="_yuaOcCmrEeKJlbl7jX3YYA" createdOn="2012-11-08T14:54:19.479+0100" modifiedOn="2012-11-08T14:55:25.472+0100" name="Customer">
+          <associatedTypes xsi:type="oent:Entity" href="Shop.entity#_hnBpcB9oEeK_mMxxmiaP2A"/>
+        </types>
+        <types xsi:type="org.obeonetwork.dsl.soa:ServiceDTO" xmi:id="_-iybcCmrEeKJlbl7jX3YYA" createdOn="2012-11-08T14:55:38.791+0100" modifiedOn="2012-11-08T14:55:54.168+0100" name="Cart">
+          <associatedTypes xsi:type="oent:Entity" href="Shop.entity#_tCiOAB9pEeK_mMxxmiaP2A"/>
+        </types>
+        <types xsi:type="org.obeonetwork.dsl.soa:ServiceDTO" xmi:id="_CLoKYCmsEeKJlbl7jX3YYA" createdOn="2012-11-08T14:56:03.206+0100" modifiedOn="2012-11-08T14:56:47.465+0100" name="ProductInfo">
+          <associatedTypes xsi:type="oent:Entity" href="Shop.entity#_IjtggB9pEeK_mMxxmiaP2A"/>
+        </types>
+      </ownedCategories>
+    </ownedDtoRegistry>
   </ownedNamespaces>
 </org.obeonetwork.dsl.soa:System>

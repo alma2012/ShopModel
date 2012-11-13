@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cinematic:CinematicRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cinematic="http://www.obeonetwork.org/dsl/cinematic/3.0.0" xmlns:cinematic-flow="http://www.obeonetwork.org/dsl/cinematic/flow/1.0.0" xmlns:cinematic-view="http://www.obeonetwork.org/dsl/cinematic/view/1.0.0" xmi:id="_HuXtoSXwEeKEXaj7iEH07w" createdOn="2012-11-03T20:53:21.523+0100" modifiedOn="2012-11-03T22:07:01.143+0100" name="Shop">
-  <flows xmi:id="_LxoHsCXwEeKEXaj7iEH07w" createdOn="2012-11-03T20:57:28.305+0100" modifiedOn="2012-11-03T22:07:01.143+0100" name="Main">
+<cinematic:CinematicRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cinematic="http://www.obeonetwork.org/dsl/cinematic/3.0.0" xmlns:cinematic-flow="http://www.obeonetwork.org/dsl/cinematic/flow/1.0.0" xmlns:cinematic-view="http://www.obeonetwork.org/dsl/cinematic/view/1.0.0" xmi:id="_HuXtoSXwEeKEXaj7iEH07w" createdOn="2012-11-03T20:53:21.523+0100" modifiedOn="2012-11-04T15:53:46.187+0100" name="Shop">
+  <flows xmi:id="_LxoHsCXwEeKEXaj7iEH07w" createdOn="2012-11-03T20:57:28.305+0100" modifiedOn="2012-11-04T15:53:46.187+0100" name="Main">
     <states xsi:type="cinematic-flow:InitialState" xmi:id="_vXAEsCXwEeKEXaj7iEH07w" createdOn="2012-11-03T20:57:52.897+0100" modifiedOn="2012-11-03T20:57:52.897+0100" name="Start"/>
     <states xsi:type="cinematic-flow:ViewState" xmi:id="_0BX6YCX2EeKEXaj7iEH07w" createdOn="2012-11-03T21:41:18.414+0100" modifiedOn="2012-11-03T21:41:34.267+0100" name="Display MainPage" viewContainers="_J8brMCXxEeKEXaj7iEH07w"/>
     <states xsi:type="cinematic-flow:ViewState" xmi:id="_6opJUCX2EeKEXaj7iEH07w" createdOn="2012-11-03T21:42:12.755+0100" modifiedOn="2012-11-03T21:42:18.987+0100" name="Display RegisterPage" viewContainers="_GSqLUCX1EeKEXaj7iEH07w"/>
@@ -10,8 +10,8 @@
         <operations href="Shop.soa#_QBwKACX5EeKEXaj7iEH07w"/>
       </actions>
     </states>
-    <states xsi:type="cinematic-flow:ActionState" xmi:id="_H_1FgCX6EeKEXaj7iEH07w" createdOn="2012-11-03T22:05:04.557+0100" modifiedOn="2012-11-03T22:05:36.749+0100" name="Register User">
-      <actions xmi:id="_KlPBgCX6EeKEXaj7iEH07w" createdOn="2012-11-03T22:05:26.613+0100" modifiedOn="2012-11-03T22:05:36.749+0100" name="Register User">
+    <states xsi:type="cinematic-flow:ActionState" xmi:id="_H_1FgCX6EeKEXaj7iEH07w" createdOn="2012-11-03T22:05:04.557+0100" modifiedOn="2012-11-04T15:53:46.187+0100" name="Register User">
+      <actions xmi:id="_KlPBgCX6EeKEXaj7iEH07w" createdOn="2012-11-03T22:05:26.613+0100" modifiedOn="2012-11-04T15:53:46.187+0100" name="RegisterUser">
         <operations href="Shop.soa#_cQh3IB9uEeK_mMxxmiaP2A"/>
       </actions>
     </states>
@@ -55,4 +55,5 @@
       </events>
     </ownedElements>
   </viewContainers>
+  <toolkits href="pathmap://cinematic/toolkits/Web#_prv6gIjeEeGIXsoZxTXHQA"/>
 </cinematic:CinematicRoot>
