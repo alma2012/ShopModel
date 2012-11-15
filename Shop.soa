@@ -1,167 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.obeonetwork.dsl.soa:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/2.0.0" xmlns:org.obeonetwork.dsl.soa="http://www.obeonetwork.org/dsl/soa/2.0.0" xmi:id="_Hvn0UB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:00:30.613+0200" modifiedOn="2012-11-13T21:25:29.601+0100">
-  <ownedNamespaces xsi:type="org.obeonetwork.dsl.soa:System" xmi:id="_mJ7aoB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:03:54.698+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="ShopSystem">
-    <ownedComponents xmi:id="_ph1xoB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:05:50.797+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="UsersManager">
-      <ownedServices xmi:id="_CciUoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:07:28.350+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="UserAuthentifications">
-        <ownedInterface xmi:id="_U2XLoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:09:20.375+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="UserAuthentifications">
-          <ownedOperations xmi:id="_cQh3IB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:10:05.312+0200" modifiedOn="2012-10-29T12:41:54.820+0100" name="register_user">
-            <input xmi:id="_z7l-QB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:12:43.103+0200" modifiedOn="2012-10-26T15:14:11.039+0200" name="login">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
-            </input>
-            <input xmi:id="_lVxH4B9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:18:08.224+0200" modifiedOn="2012-10-26T15:20:17.755+0200" name="email">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
-            </input>
-            <input xmi:id="_nMuCcB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:18:20.696+0200" modifiedOn="2012-10-26T15:20:49.673+0200" name="password">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
-            </input>
-            <input xmi:id="_nhQvEB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:18:22.850+0200" modifiedOn="2012-10-29T12:41:50.426+0100" name="first_name">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
-            </input>
-            <input xmi:id="_n3HDQB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:18:25.141+0200" modifiedOn="2012-10-29T12:41:54.820+0100" name="last_name">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
-            </input>
-            <output xmi:id="_oJGyMB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:18:27.029+0200" modifiedOn="2012-10-26T15:19:12.836+0200" name="success">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAqwKEd2XLNOhkJIazw"/>
-            </output>
-          </ownedOperations>
-          <ownedOperations xmi:id="_xz88UB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:12:31.820+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="login_user">
-            <input xmi:id="_E6P3wB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:14:42.092+0200" modifiedOn="2012-11-13T21:25:13.827+0100" name="login">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
-            </input>
-            <input xmi:id="_FhT3wB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:14:46.613+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="password">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
-            </input>
-            <output xmi:id="_3PKAwB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:13:05.056+0200" modifiedOn="2012-10-26T15:48:59.056+0200" name="user">
-              <type xsi:type="oent:Entity" href="Shop.entity#_hnBpcB9oEeK_mMxxmiaP2A"/>
-            </output>
-          </ownedOperations>
-        </ownedInterface>
-      </ownedServices>
-    </ownedComponents>
-    <ownedComponents xmi:id="_qR58oB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:05:58.989+0200" modifiedOn="2012-11-03T21:59:54.196+0100" name="ShopManager">
-      <ownedServices xmi:id="_KENQoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:09:01.201+0200" modifiedOn="2012-10-29T12:47:13.024+0100" name="ProductsSalesManagement">
-        <ownedInterface xmi:id="_QViZ4B9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:23:03.351+0200" modifiedOn="2012-10-29T12:47:13.024+0100" name="ProductsSalesManagement">
-          <ownedOperations xmi:id="_R-bDQB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:23:19.576+0200" modifiedOn="2012-10-29T12:47:02.579+0100" name="add_product_to_shop" kind="ONE_WAY">
-            <input xmi:id="_WFwPkB9xEeK_mMxxmiaP2A" createdOn="2012-10-26T15:30:44.875+0200" modifiedOn="2012-10-29T12:46:55.105+0100" name="product_infos">
-              <type xsi:type="oent:Entity" href="Shop.entity#_IjtggB9pEeK_mMxxmiaP2A"/>
-            </input>
-            <input xmi:id="_W5kSIB9xEeK_mMxxmiaP2A" createdOn="2012-10-26T15:30:50.308+0200" modifiedOn="2012-10-29T12:46:58.717+0100" name="price">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5GlIKwKEd2XLNOhkJIazw"/>
-            </input>
-            <input xmi:id="_XO8sQB9xEeK_mMxxmiaP2A" createdOn="2012-10-26T15:30:52.550+0200" modifiedOn="2012-10-29T12:47:02.579+0100" name="stock">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAawKEd2XLNOhkJIazw"/>
-            </input>
-            <output xmi:id="_pS29oB9xEeK_mMxxmiaP2A" createdOn="2012-10-26T15:32:53.756+0200" modifiedOn="2012-10-29T12:46:50.412+0100" name="product_sale">
-              <type xsi:type="oent:Entity" href="Shop.entity#_a_mNAB9pEeK_mMxxmiaP2A"/>
-            </output>
-          </ownedOperations>
-          <ownedOperations xmi:id="_VaYMwB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:23:36.655+0200" modifiedOn="2012-10-29T12:47:13.024+0100" name="remove_product_from_shop">
-            <input xmi:id="_R3H2UCG-EeKSS-ZcRdlElA" createdOn="2012-10-29T12:46:40.292+0100" modifiedOn="2012-10-29T12:47:13.024+0100" name="product">
-              <type xsi:type="oent:Entity" href="Shop.entity#_a_mNAB9pEeK_mMxxmiaP2A"/>
-            </input>
-          </ownedOperations>
-          <ownedOperations xmi:id="_X9Mu0B9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:24:09.909+0200" modifiedOn="2012-10-26T15:24:09.909+0200" name="edit_product_stock"/>
-        </ownedInterface>
-      </ownedServices>
-      <ownedServices xmi:id="_vWUKUB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:26:37.950+0200" modifiedOn="2012-10-29T12:45:12.913+0100" name="ProductsInfosManagement">
-        <ownedInterface xmi:id="_yKb3wB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:26:47.730+0200" modifiedOn="2012-10-29T12:45:12.913+0100" name="ProductsInfosManagement">
-          <ownedOperations xmi:id="_210o0B9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:27:32.224+0200" modifiedOn="2012-10-29T12:44:47.359+0100" name="new_product">
-            <input xmi:id="_-63dUB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:28:21.789+0200" modifiedOn="2012-10-29T12:44:47.359+0100" name="label">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
-            </input>
-            <input xmi:id="__hnUQB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:28:26.061+0200" modifiedOn="2012-10-29T12:44:44.046+0100" name="description">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
-            </input>
-            <input xmi:id="__8GQ0B9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:28:32.085+0200" modifiedOn="2012-10-29T12:44:41.871+0100" name="category">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
-            </input>
-            <output xmi:id="_C510UB9xEeK_mMxxmiaP2A" createdOn="2012-10-26T15:28:47.383+0200" modifiedOn="2012-10-29T12:44:38.620+0100" name="product_infos">
-              <type xsi:type="oent:Entity" href="Shop.entity#_IjtggB9pEeK_mMxxmiaP2A"/>
-            </output>
-          </ownedOperations>
-          <ownedOperations xmi:id="_5qkBUB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:27:38.683+0200" modifiedOn="2012-10-29T12:44:32.445+0100" name="edit_product_info">
-            <input xmi:id="_w7tlMCG9EeKSS-ZcRdlElA" createdOn="2012-10-29T12:44:10.257+0100" modifiedOn="2012-10-29T12:44:16.905+0100" name="product_infos">
-              <type xsi:type="oent:Entity" href="Shop.entity#_IjtggB9pEeK_mMxxmiaP2A"/>
-            </input>
-            <input xmi:id="_5reKoCG9EeKSS-ZcRdlElA" createdOn="2012-10-26T15:28:21.789+0200" modifiedOn="2012-10-29T12:44:27.584+0100" name="label">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
-            </input>
-            <input xmi:id="_5reKoSG9EeKSS-ZcRdlElA" createdOn="2012-10-26T15:28:26.061+0200" modifiedOn="2012-10-29T12:44:30.233+0100" name="description">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
-            </input>
-            <input xmi:id="_5reKoiG9EeKSS-ZcRdlElA" createdOn="2012-10-26T15:28:32.085+0200" modifiedOn="2012-10-29T12:44:32.445+0100" name="category">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
-            </input>
-          </ownedOperations>
-          <ownedOperations xmi:id="_8TP60B9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:27:57.297+0200" modifiedOn="2012-10-29T12:45:12.913+0100" name="delete_product">
-            <input xmi:id="_EQXswCG-EeKSS-ZcRdlElA" createdOn="2012-10-29T12:45:06.737+0100" modifiedOn="2012-10-29T12:45:12.912+0100" name="product_info">
-              <type xsi:type="oent:Entity" href="Shop.entity#_IjtggB9pEeK_mMxxmiaP2A"/>
-            </input>
-          </ownedOperations>
-        </ownedInterface>
-      </ownedServices>
-      <ownedServices xmi:id="_CBgzQB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:43:24.395+0200" modifiedOn="2012-10-26T15:49:35.152+0200" name="ProductsPurchaseManagement">
-        <ownedInterface xmi:id="_H1FUYB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:43:32.621+0200" modifiedOn="2012-10-26T15:49:35.152+0200" name="ProductsPurchaseManagement">
-          <ownedOperations xmi:id="_Ifkb0B9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:44:18.737+0200" modifiedOn="2012-10-26T15:46:08.410+0200" name="add_product_to_cart">
-            <input xmi:id="_TJ3bUB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:45:01.079+0200" modifiedOn="2012-10-26T15:45:20.822+0200" name="customer">
-              <type xsi:type="oent:Entity" href="Shop.entity#_hnBpcB9oEeK_mMxxmiaP2A"/>
-            </input>
-            <input xmi:id="_T3Z2wB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:45:39.297+0200" modifiedOn="2012-10-26T15:45:49.464+0200" name="product">
-              <type xsi:type="oent:Entity" href="Shop.entity#_a_mNAB9pEeK_mMxxmiaP2A"/>
-            </input>
-            <input xmi:id="_UdBFQB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:46:00.440+0200" modifiedOn="2012-10-26T15:46:08.410+0200" name="quantity">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAawKEd2XLNOhkJIazw"/>
-            </input>
-          </ownedOperations>
-          <ownedOperations xmi:id="_JW4eUB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:44:30.373+0200" modifiedOn="2012-10-26T15:47:51.408+0200" name="remove_product_from_cart">
-            <input xmi:id="_rsXgwB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:47:41.353+0200" modifiedOn="2012-10-26T15:47:51.408+0200" name="customer">
-              <type xsi:type="oent:Entity" href="Shop.entity#_hnBpcB9oEeK_mMxxmiaP2A"/>
-            </input>
-            <input xmi:id="_gT_6UB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:46:23.771+0200" modifiedOn="2012-10-26T15:46:32.024+0200" name="purchased_product">
-              <type xsi:type="oent:Entity" href="Shop.entity#_w9xUgB9pEeK_mMxxmiaP2A"/>
-            </input>
-            <input xmi:id="_lII-wB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:46:51.368+0200" modifiedOn="2012-10-26T15:47:09.528+0200" name="quantity">
-              <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAawKEd2XLNOhkJIazw"/>
-            </input>
-          </ownedOperations>
-        </ownedInterface>
-      </ownedServices>
-      <ownedServices xmi:id="_BmqN0B90EeK_mMxxmiaP2A" description="Sera sans doute inutile si on considère qu'un Customer accède directement à son Cart" createdOn="2012-10-26T15:49:59.119+0200" modifiedOn="2012-10-26T22:29:47.931+0200" kind="required" name="CustomerCart">
-        <ownedInterface xmi:id="_Gq1SUB90EeK_mMxxmiaP2A" description="Sera sans doute inutile si on considère qu'un Customer accède directement à son Cart" createdOn="2012-10-26T15:50:45.731+0200" modifiedOn="2012-10-26T22:29:47.931+0200" name="CustomerCart">
-          <ownedOperations xmi:id="_J6Rp0B90EeK_mMxxmiaP2A" createdOn="2012-10-26T15:51:00.987+0200" modifiedOn="2012-10-26T22:29:47.931+0200" name="get_customer_cart">
-            <input xmi:id="_L-u04B90EeK_mMxxmiaP2A" createdOn="2012-10-26T15:51:40.286+0200" modifiedOn="2012-10-26T22:29:38.702+0200" name="customer">
-              <type xsi:type="oent:Entity" href="Shop.entity#_hnBpcB9oEeK_mMxxmiaP2A"/>
-            </input>
-            <output xmi:id="_MnZXYB90EeK_mMxxmiaP2A" createdOn="2012-10-26T15:51:44.979+0200" modifiedOn="2012-10-26T22:29:47.931+0200" name="cart">
-              <type xsi:type="oent:Entity" href="Shop.entity#_tCiOAB9pEeK_mMxxmiaP2A"/>
-            </output>
-          </ownedOperations>
-        </ownedInterface>
-      </ownedServices>
-      <ownedServices xmi:id="_Byt4cCX5EeKEXaj7iEH07w" createdOn="2012-11-03T21:57:39.356+0100" modifiedOn="2012-11-03T21:59:54.196+0100" name="ProductsPublicInterface">
-        <ownedInterface xmi:id="_HkTckCX5EeKEXaj7iEH07w" createdOn="2012-11-03T21:58:33.645+0100" modifiedOn="2012-11-03T21:59:54.196+0100" name="ProductsPublicInterface">
-          <ownedOperations xmi:id="_QBwKACX5EeKEXaj7iEH07w" createdOn="2012-11-03T21:58:51.244+0100" modifiedOn="2012-11-03T21:59:54.196+0100" name="getProductList">
-            <output xmi:id="_Rr4wkCX5EeKEXaj7iEH07w" createdOn="2012-11-03T21:58:59.669+0100" modifiedOn="2012-11-03T21:59:54.196+0100" name="products" lower="0">
-              <type xsi:type="oent:Entity" href="Shop.entity#_a_mNAB9pEeK_mMxxmiaP2A"/>
-            </output>
-          </ownedOperations>
-        </ownedInterface>
-      </ownedServices>
-    </ownedComponents>
-    <ownedComponents xmi:id="_tFCyoB9tEeK_mMxxmiaP2A" description="Inutilisé pour le moment" createdOn="2012-10-26T15:06:21.017+0200" modifiedOn="2012-10-26T15:06:26.235+0200" name="AdministrationManager"/>
-    <ownedComponents xmi:id="_8oX6gCX4EeKEXaj7iEH07w" createdOn="2012-11-03T21:56:37.166+0100" modifiedOn="2012-11-03T21:56:46.571+0100"/>
-    <ownedDtoRegistry xmi:id="_PpzKsB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:15:48.274+0200" modifiedOn="2012-11-08T14:56:47.465+0100">
-      <ownedCategories xmi:id="_tmU6UCmrEeKJlbl7jX3YYA" createdOn="2012-11-08T14:53:51.438+0100" modifiedOn="2012-11-08T14:56:47.465+0100" name="Main">
-        <types xsi:type="org.obeonetwork.dsl.soa:ServiceDTO" xmi:id="_yuaOcCmrEeKJlbl7jX3YYA" createdOn="2012-11-08T14:54:19.479+0100" modifiedOn="2012-11-08T14:55:25.472+0100" name="Customer">
-          <associatedTypes xsi:type="oent:Entity" href="Shop.entity#_hnBpcB9oEeK_mMxxmiaP2A"/>
-        </types>
-        <types xsi:type="org.obeonetwork.dsl.soa:ServiceDTO" xmi:id="_-iybcCmrEeKJlbl7jX3YYA" createdOn="2012-11-08T14:55:38.791+0100" modifiedOn="2012-11-08T14:55:54.168+0100" name="Cart">
-          <associatedTypes xsi:type="oent:Entity" href="Shop.entity#_tCiOAB9pEeK_mMxxmiaP2A"/>
-        </types>
-        <types xsi:type="org.obeonetwork.dsl.soa:ServiceDTO" xmi:id="_CLoKYCmsEeKJlbl7jX3YYA" createdOn="2012-11-08T14:56:03.206+0100" modifiedOn="2012-11-08T14:56:47.465+0100" name="ProductInfo">
-          <associatedTypes xsi:type="oent:Entity" href="Shop.entity#_IjtggB9pEeK_mMxxmiaP2A"/>
-        </types>
-      </ownedCategories>
-    </ownedDtoRegistry>
-  </ownedNamespaces>
+<org.obeonetwork.dsl.soa:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/2.0.0" xmlns:org.obeonetwork.dsl.soa="http://www.obeonetwork.org/dsl/soa/2.0.0" xmi:id="_Hvn0UB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:00:30.613+0200" modifiedOn="2012-11-15T11:18:15.242+0100">
+  <ownedComponents xmi:id="_ph1xoB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:05:50.797+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="UsersManager">
+    <ownedServices xmi:id="_CciUoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:07:28.350+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="UserAuthentifications">
+      <ownedInterface xmi:id="_U2XLoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:09:20.375+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="UserAuthentifications">
+        <ownedOperations xmi:id="_cQh3IB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:10:05.312+0200" modifiedOn="2012-10-29T12:41:54.820+0100" name="register_user">
+          <input xmi:id="_z7l-QB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:12:43.103+0200" modifiedOn="2012-10-26T15:14:11.039+0200" name="login">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </input>
+          <input xmi:id="_lVxH4B9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:18:08.224+0200" modifiedOn="2012-10-26T15:20:17.755+0200" name="email">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </input>
+          <input xmi:id="_nMuCcB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:18:20.696+0200" modifiedOn="2012-10-26T15:20:49.673+0200" name="password">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </input>
+          <input xmi:id="_nhQvEB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:18:22.850+0200" modifiedOn="2012-10-29T12:41:50.426+0100" name="first_name">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </input>
+          <input xmi:id="_n3HDQB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:18:25.141+0200" modifiedOn="2012-10-29T12:41:54.820+0100" name="last_name">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </input>
+          <output xmi:id="_oJGyMB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:18:27.029+0200" modifiedOn="2012-10-26T15:19:12.836+0200" name="success">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAqwKEd2XLNOhkJIazw"/>
+          </output>
+        </ownedOperations>
+        <ownedOperations xmi:id="_xz88UB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:12:31.820+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="login_user">
+          <input xmi:id="_E6P3wB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:14:42.092+0200" modifiedOn="2012-11-13T21:25:13.827+0100" name="login">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </input>
+          <input xmi:id="_FhT3wB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:14:46.613+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="password">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </input>
+          <output xmi:id="_3PKAwB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:13:05.056+0200" modifiedOn="2012-10-26T15:48:59.056+0200" name="user">
+            <type xsi:type="oent:Entity" href="Shop.entity#_hnBpcB9oEeK_mMxxmiaP2A"/>
+          </output>
+        </ownedOperations>
+      </ownedInterface>
+    </ownedServices>
+  </ownedComponents>
+  <ownedComponents xmi:id="_qR58oB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:05:58.989+0200" modifiedOn="2012-11-03T21:59:54.196+0100" name="ShopManager">
+    <ownedServices xmi:id="_KENQoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:09:01.201+0200" modifiedOn="2012-10-29T12:47:13.024+0100" name="ProductsSalesManagement">
+      <ownedInterface xmi:id="_QViZ4B9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:23:03.351+0200" modifiedOn="2012-10-29T12:47:13.024+0100" name="ProductsSalesManagement">
+        <ownedOperations xmi:id="_R-bDQB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:23:19.576+0200" modifiedOn="2012-10-29T12:47:02.579+0100" name="add_product_to_shop" kind="ONE_WAY">
+          <input xmi:id="_WFwPkB9xEeK_mMxxmiaP2A" createdOn="2012-10-26T15:30:44.875+0200" modifiedOn="2012-10-29T12:46:55.105+0100" name="product_infos">
+            <type xsi:type="oent:Entity" href="Shop.entity#_IjtggB9pEeK_mMxxmiaP2A"/>
+          </input>
+          <input xmi:id="_W5kSIB9xEeK_mMxxmiaP2A" createdOn="2012-10-26T15:30:50.308+0200" modifiedOn="2012-10-29T12:46:58.717+0100" name="price">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5GlIKwKEd2XLNOhkJIazw"/>
+          </input>
+          <input xmi:id="_XO8sQB9xEeK_mMxxmiaP2A" createdOn="2012-10-26T15:30:52.550+0200" modifiedOn="2012-10-29T12:47:02.579+0100" name="stock">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAawKEd2XLNOhkJIazw"/>
+          </input>
+          <output xmi:id="_pS29oB9xEeK_mMxxmiaP2A" createdOn="2012-10-26T15:32:53.756+0200" modifiedOn="2012-10-29T12:46:50.412+0100" name="product_sale">
+            <type xsi:type="oent:Entity" href="Shop.entity#_a_mNAB9pEeK_mMxxmiaP2A"/>
+          </output>
+        </ownedOperations>
+        <ownedOperations xmi:id="_VaYMwB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:23:36.655+0200" modifiedOn="2012-10-29T12:47:13.024+0100" name="remove_product_from_shop">
+          <input xmi:id="_R3H2UCG-EeKSS-ZcRdlElA" createdOn="2012-10-29T12:46:40.292+0100" modifiedOn="2012-10-29T12:47:13.024+0100" name="product">
+            <type xsi:type="oent:Entity" href="Shop.entity#_a_mNAB9pEeK_mMxxmiaP2A"/>
+          </input>
+        </ownedOperations>
+        <ownedOperations xmi:id="_X9Mu0B9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:24:09.909+0200" modifiedOn="2012-10-26T15:24:09.909+0200" name="edit_product_stock"/>
+      </ownedInterface>
+    </ownedServices>
+    <ownedServices xmi:id="_vWUKUB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:26:37.950+0200" modifiedOn="2012-10-29T12:45:12.913+0100" name="ProductsInfosManagement">
+      <ownedInterface xmi:id="_yKb3wB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:26:47.730+0200" modifiedOn="2012-10-29T12:45:12.913+0100" name="ProductsInfosManagement">
+        <ownedOperations xmi:id="_210o0B9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:27:32.224+0200" modifiedOn="2012-10-29T12:44:47.359+0100" name="new_product">
+          <input xmi:id="_-63dUB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:28:21.789+0200" modifiedOn="2012-10-29T12:44:47.359+0100" name="label">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </input>
+          <input xmi:id="__hnUQB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:28:26.061+0200" modifiedOn="2012-10-29T12:44:44.046+0100" name="description">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </input>
+          <input xmi:id="__8GQ0B9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:28:32.085+0200" modifiedOn="2012-10-29T12:44:41.871+0100" name="category">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </input>
+          <output xmi:id="_C510UB9xEeK_mMxxmiaP2A" createdOn="2012-10-26T15:28:47.383+0200" modifiedOn="2012-10-29T12:44:38.620+0100" name="product_infos">
+            <type xsi:type="oent:Entity" href="Shop.entity#_IjtggB9pEeK_mMxxmiaP2A"/>
+          </output>
+        </ownedOperations>
+        <ownedOperations xmi:id="_5qkBUB9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:27:38.683+0200" modifiedOn="2012-10-29T12:44:32.445+0100" name="edit_product_info">
+          <input xmi:id="_w7tlMCG9EeKSS-ZcRdlElA" createdOn="2012-10-29T12:44:10.257+0100" modifiedOn="2012-10-29T12:44:16.905+0100" name="product_infos">
+            <type xsi:type="oent:Entity" href="Shop.entity#_IjtggB9pEeK_mMxxmiaP2A"/>
+          </input>
+          <input xmi:id="_5reKoCG9EeKSS-ZcRdlElA" createdOn="2012-10-26T15:28:21.789+0200" modifiedOn="2012-10-29T12:44:27.584+0100" name="label">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </input>
+          <input xmi:id="_5reKoSG9EeKSS-ZcRdlElA" createdOn="2012-10-26T15:28:26.061+0200" modifiedOn="2012-10-29T12:44:30.233+0100" name="description">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </input>
+          <input xmi:id="_5reKoiG9EeKSS-ZcRdlElA" createdOn="2012-10-26T15:28:32.085+0200" modifiedOn="2012-10-29T12:44:32.445+0100" name="category">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </input>
+        </ownedOperations>
+        <ownedOperations xmi:id="_8TP60B9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:27:57.297+0200" modifiedOn="2012-10-29T12:45:12.913+0100" name="delete_product">
+          <input xmi:id="_EQXswCG-EeKSS-ZcRdlElA" createdOn="2012-10-29T12:45:06.737+0100" modifiedOn="2012-10-29T12:45:12.912+0100" name="product_info">
+            <type xsi:type="oent:Entity" href="Shop.entity#_IjtggB9pEeK_mMxxmiaP2A"/>
+          </input>
+        </ownedOperations>
+      </ownedInterface>
+    </ownedServices>
+    <ownedServices xmi:id="_CBgzQB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:43:24.395+0200" modifiedOn="2012-10-26T15:49:35.152+0200" name="ProductsPurchaseManagement">
+      <ownedInterface xmi:id="_H1FUYB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:43:32.621+0200" modifiedOn="2012-10-26T15:49:35.152+0200" name="ProductsPurchaseManagement">
+        <ownedOperations xmi:id="_Ifkb0B9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:44:18.737+0200" modifiedOn="2012-10-26T15:46:08.410+0200" name="add_product_to_cart">
+          <input xmi:id="_TJ3bUB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:45:01.079+0200" modifiedOn="2012-10-26T15:45:20.822+0200" name="customer">
+            <type xsi:type="oent:Entity" href="Shop.entity#_hnBpcB9oEeK_mMxxmiaP2A"/>
+          </input>
+          <input xmi:id="_T3Z2wB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:45:39.297+0200" modifiedOn="2012-10-26T15:45:49.464+0200" name="product">
+            <type xsi:type="oent:Entity" href="Shop.entity#_a_mNAB9pEeK_mMxxmiaP2A"/>
+          </input>
+          <input xmi:id="_UdBFQB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:46:00.440+0200" modifiedOn="2012-10-26T15:46:08.410+0200" name="quantity">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAawKEd2XLNOhkJIazw"/>
+          </input>
+        </ownedOperations>
+        <ownedOperations xmi:id="_JW4eUB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:44:30.373+0200" modifiedOn="2012-10-26T15:47:51.408+0200" name="remove_product_from_cart">
+          <input xmi:id="_rsXgwB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:47:41.353+0200" modifiedOn="2012-10-26T15:47:51.408+0200" name="customer">
+            <type xsi:type="oent:Entity" href="Shop.entity#_hnBpcB9oEeK_mMxxmiaP2A"/>
+          </input>
+          <input xmi:id="_gT_6UB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:46:23.771+0200" modifiedOn="2012-10-26T15:46:32.024+0200" name="purchased_product">
+            <type xsi:type="oent:Entity" href="Shop.entity#_w9xUgB9pEeK_mMxxmiaP2A"/>
+          </input>
+          <input xmi:id="_lII-wB9zEeK_mMxxmiaP2A" createdOn="2012-10-26T15:46:51.368+0200" modifiedOn="2012-10-26T15:47:09.528+0200" name="quantity">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAawKEd2XLNOhkJIazw"/>
+          </input>
+        </ownedOperations>
+      </ownedInterface>
+    </ownedServices>
+    <ownedServices xmi:id="_BmqN0B90EeK_mMxxmiaP2A" description="Sera sans doute inutile si on considère qu'un Customer accède directement à son Cart" createdOn="2012-10-26T15:49:59.119+0200" modifiedOn="2012-10-26T22:29:47.931+0200" kind="required" name="CustomerCart">
+      <ownedInterface xmi:id="_Gq1SUB90EeK_mMxxmiaP2A" description="Sera sans doute inutile si on considère qu'un Customer accède directement à son Cart" createdOn="2012-10-26T15:50:45.731+0200" modifiedOn="2012-10-26T22:29:47.931+0200" name="CustomerCart">
+        <ownedOperations xmi:id="_J6Rp0B90EeK_mMxxmiaP2A" createdOn="2012-10-26T15:51:00.987+0200" modifiedOn="2012-10-26T22:29:47.931+0200" name="get_customer_cart">
+          <input xmi:id="_L-u04B90EeK_mMxxmiaP2A" createdOn="2012-10-26T15:51:40.286+0200" modifiedOn="2012-10-26T22:29:38.702+0200" name="customer">
+            <type xsi:type="oent:Entity" href="Shop.entity#_hnBpcB9oEeK_mMxxmiaP2A"/>
+          </input>
+          <output xmi:id="_MnZXYB90EeK_mMxxmiaP2A" createdOn="2012-10-26T15:51:44.979+0200" modifiedOn="2012-10-26T22:29:47.931+0200" name="cart">
+            <type xsi:type="oent:Entity" href="Shop.entity#_tCiOAB9pEeK_mMxxmiaP2A"/>
+          </output>
+        </ownedOperations>
+      </ownedInterface>
+    </ownedServices>
+    <ownedServices xmi:id="_Byt4cCX5EeKEXaj7iEH07w" createdOn="2012-11-03T21:57:39.356+0100" modifiedOn="2012-11-03T21:59:54.196+0100" name="ProductsPublicInterface">
+      <ownedInterface xmi:id="_HkTckCX5EeKEXaj7iEH07w" createdOn="2012-11-03T21:58:33.645+0100" modifiedOn="2012-11-03T21:59:54.196+0100" name="ProductsPublicInterface">
+        <ownedOperations xmi:id="_QBwKACX5EeKEXaj7iEH07w" createdOn="2012-11-03T21:58:51.244+0100" modifiedOn="2012-11-03T21:59:54.196+0100" name="getProductList">
+          <output xmi:id="_Rr4wkCX5EeKEXaj7iEH07w" createdOn="2012-11-03T21:58:59.669+0100" modifiedOn="2012-11-03T21:59:54.196+0100" name="products" lower="0">
+            <type xsi:type="oent:Entity" href="Shop.entity#_a_mNAB9pEeK_mMxxmiaP2A"/>
+          </output>
+        </ownedOperations>
+      </ownedInterface>
+    </ownedServices>
+  </ownedComponents>
+  <ownedComponents xmi:id="_tFCyoB9tEeK_mMxxmiaP2A" description="Inutilisé pour le moment" createdOn="2012-10-26T15:06:21.017+0200" modifiedOn="2012-10-26T15:06:26.235+0200" name="AdministrationManager"/>
+  <ownedComponents xmi:id="_8oX6gCX4EeKEXaj7iEH07w" createdOn="2012-11-03T21:56:37.166+0100" modifiedOn="2012-11-03T21:56:46.571+0100"/>
+  <ownedDtoRegistry xmi:id="_PpzKsB9vEeK_mMxxmiaP2A" createdOn="2012-10-26T15:15:48.274+0200" modifiedOn="2012-11-08T14:56:47.465+0100">
+    <ownedCategories xmi:id="_tmU6UCmrEeKJlbl7jX3YYA" createdOn="2012-11-08T14:53:51.438+0100" modifiedOn="2012-11-08T14:56:47.465+0100" name="Main">
+      <types xsi:type="org.obeonetwork.dsl.soa:ServiceDTO" xmi:id="_yuaOcCmrEeKJlbl7jX3YYA" createdOn="2012-11-08T14:54:19.479+0100" modifiedOn="2012-11-08T14:55:25.472+0100" name="Customer">
+        <associatedTypes xsi:type="oent:Entity" href="Shop.entity#_hnBpcB9oEeK_mMxxmiaP2A"/>
+      </types>
+      <types xsi:type="org.obeonetwork.dsl.soa:ServiceDTO" xmi:id="_-iybcCmrEeKJlbl7jX3YYA" createdOn="2012-11-08T14:55:38.791+0100" modifiedOn="2012-11-08T14:55:54.168+0100" name="Cart">
+        <associatedTypes xsi:type="oent:Entity" href="Shop.entity#_tCiOAB9pEeK_mMxxmiaP2A"/>
+      </types>
+      <types xsi:type="org.obeonetwork.dsl.soa:ServiceDTO" xmi:id="_CLoKYCmsEeKJlbl7jX3YYA" createdOn="2012-11-08T14:56:03.206+0100" modifiedOn="2012-11-08T14:56:47.465+0100" name="ProductInfo">
+        <associatedTypes xsi:type="oent:Entity" href="Shop.entity#_IjtggB9pEeK_mMxxmiaP2A"/>
+      </types>
+    </ownedCategories>
+  </ownedDtoRegistry>
 </org.obeonetwork.dsl.soa:System>
