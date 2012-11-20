@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cinematic:CinematicRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cinematic="http://www.obeonetwork.org/dsl/cinematic/3.0.0" xmlns:cinematic-flow="http://www.obeonetwork.org/dsl/cinematic/flow/1.0.0" xmlns:cinematic-view="http://www.obeonetwork.org/dsl/cinematic/view/1.0.0" xmi:id="_HuXtoSXwEeKEXaj7iEH07w" createdOn="2012-11-03T20:53:21.523+0100" modifiedOn="2012-11-04T15:53:46.187+0100" name="Shop">
+<cinematic:CinematicRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cinematic="http://www.obeonetwork.org/dsl/cinematic/3.0.0" xmlns:cinematic-flow="http://www.obeonetwork.org/dsl/cinematic/flow/1.0.0" xmlns:cinematic-view="http://www.obeonetwork.org/dsl/cinematic/view/1.0.0" xmi:id="_HuXtoSXwEeKEXaj7iEH07w" createdOn="2012-11-03T20:53:21.523+0100" modifiedOn="2012-11-15T14:33:34.716+0100" name="Shop">
   <flows xmi:id="_LxoHsCXwEeKEXaj7iEH07w" createdOn="2012-11-03T20:57:28.305+0100" modifiedOn="2012-11-04T15:53:46.187+0100" name="Main">
     <states xsi:type="cinematic-flow:InitialState" xmi:id="_vXAEsCXwEeKEXaj7iEH07w" createdOn="2012-11-03T20:57:52.897+0100" modifiedOn="2012-11-03T20:57:52.897+0100" name="Start"/>
     <states xsi:type="cinematic-flow:ViewState" xmi:id="_0BX6YCX2EeKEXaj7iEH07w" createdOn="2012-11-03T21:41:18.414+0100" modifiedOn="2012-11-03T21:41:34.267+0100" name="Display MainPage" viewContainers="_J8brMCXxEeKEXaj7iEH07w"/>
@@ -18,6 +18,11 @@
     <transitions xmi:id="_p9iWkCX5EeKEXaj7iEH07w" createdOn="2012-11-03T22:01:56.262+0100" modifiedOn="2012-11-03T22:04:09.186+0100" name="T_LoadProductList" from="_vXAEsCXwEeKEXaj7iEH07w" to="_YXCPYCX4EeKEXaj7iEH07w"/>
     <transitions xmi:id="_6vcNgCX5EeKEXaj7iEH07w" createdOn="2012-11-03T22:03:34.589+0100" modifiedOn="2012-11-03T22:04:53.196+0100" name="T_DisplayMainPage" from="_YXCPYCX4EeKEXaj7iEH07w" to="_0BX6YCX2EeKEXaj7iEH07w"/>
     <transitions xmi:id="_SdKAACX6EeKEXaj7iEH07w" createdOn="2012-11-03T22:06:33.653+0100" modifiedOn="2012-11-03T22:07:01.143+0100" name="T_RegisterUser" from="_6opJUCX2EeKEXaj7iEH07w" to="_H_1FgCX6EeKEXaj7iEH07w" on="_ZTe7cCX2EeKEXaj7iEH07w"/>
+  </flows>
+  <flows xmi:id="_PFBQsS8oEeKSLK4U0VLNKQ" createdOn="2012-11-15T14:28:37.468+0100" modifiedOn="2012-11-15T14:31:01.989+0100" name="Header">
+    <states xsi:type="cinematic-flow:InitialState" xmi:id="_XK6ZwC8oEeKSLK4U0VLNKQ"/>
+    <states xsi:type="cinematic-flow:ActionState" xmi:id="_fMmYQC8oEeKSLK4U0VLNKQ" createdOn="2012-11-15T14:30:56.789+0100" modifiedOn="2012-11-15T14:31:01.989+0100"/>
+    <states xsi:type="cinematic-flow:ActionState" xmi:id="_hHNq0C8oEeKSLK4U0VLNKQ"/>
   </flows>
   <viewContainers xmi:id="_J8brMCXxEeKEXaj7iEH07w" createdOn="2012-11-03T21:01:30.026+0100" modifiedOn="2012-11-03T21:28:30.789+0100" name="MainPage">
     <widget href="pathmap://cinematic/toolkits/Web#_tGHvxYjeEeGIXsoZxTXHQA"/>
@@ -53,6 +58,24 @@
       <events xmi:id="_ZTe7cCX2EeKEXaj7iEH07w" createdOn="2012-11-03T21:38:23.587+0100" modifiedOn="2012-11-03T21:39:33.692+0100" name="register_button.onClick">
         <type href="pathmap://cinematic/toolkits/Web#_tGHIkYjeEeGIXsoZxTXHQA"/>
       </events>
+    </ownedElements>
+  </viewContainers>
+  <viewContainers xmi:id="_tyg4wC8oEeKSLK4U0VLNKQ" createdOn="2012-11-15T14:31:17.767+0100" modifiedOn="2012-11-15T14:33:34.716+0100" name="header" label="header">
+    <widget href="pathmap://cinematic/toolkits/Web#_tGHvsIjeEeGIXsoZxTXHQA"/>
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_x7e5QC8oEeKSLK4U0VLNKQ" createdOn="2012-11-15T14:32:00.664+0100" modifiedOn="2012-11-15T14:33:08.992+0100" name="index_link" label="Index">
+      <widget href="pathmap://cinematic/toolkits/Web#_tGHvrIjeEeGIXsoZxTXHQA"/>
+    </ownedElements>
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_yVMZwC8oEeKSLK4U0VLNKQ" createdOn="2012-11-15T14:32:17.827+0100" modifiedOn="2012-11-15T14:33:16.747+0100" name="cart_link" label="Cart">
+      <widget href="pathmap://cinematic/toolkits/Web#_tGHvrIjeEeGIXsoZxTXHQA"/>
+    </ownedElements>
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_yrjEQC8oEeKSLK4U0VLNKQ" createdOn="2012-11-15T14:32:23.853+0100" modifiedOn="2012-11-15T14:33:20.464+0100" name="login_link" label="Login">
+      <widget href="pathmap://cinematic/toolkits/Web#_tGHvrIjeEeGIXsoZxTXHQA"/>
+    </ownedElements>
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_zGpE0C8oEeKSLK4U0VLNKQ" createdOn="2012-11-15T14:32:28.296+0100" modifiedOn="2012-11-15T14:33:26.763+0100" name="registrer_link" label="Register">
+      <widget href="pathmap://cinematic/toolkits/Web#_tGHvrIjeEeGIXsoZxTXHQA"/>
+    </ownedElements>
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_0iCEwC8oEeKSLK4U0VLNKQ" createdOn="2012-11-15T14:32:36.457+0100" modifiedOn="2012-11-15T14:33:34.716+0100" name="admin_link" label="Administration">
+      <widget href="pathmap://cinematic/toolkits/Web#_tGHvrIjeEeGIXsoZxTXHQA"/>
     </ownedElements>
   </viewContainers>
   <toolkits href="pathmap://cinematic/toolkits/Web#_prv6gIjeEeGIXsoZxTXHQA"/>
