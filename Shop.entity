@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<oent:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/2.0.0" xmi:id="_cU-hAR9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:01.261+0200" modifiedOn="2012-11-20T23:24:28.648+0100">
-  <blocks xmi:id="_gmL3gB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:33.390+0200" modifiedOn="2012-11-20T23:24:28.648+0100" name="Main">
-    <entities xmi:id="_hnBpcB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:36.712+0200" modifiedOn="2012-11-20T23:23:24.215+0100" name="Customer">
+<oent:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/2.0.0" xmi:id="_cU-hAR9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:01.261+0200" modifiedOn="2012-12-01T23:43:36.716+0100">
+  <blocks xmi:id="_gmL3gB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:33.390+0200" modifiedOn="2012-12-01T23:43:36.716+0100" name="Main">
+    <entities xmi:id="_hnBpcB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:36.712+0200" modifiedOn="2012-12-01T23:43:04.880+0100" name="Customer">
       <ownedAttributes xmi:id="_lAs7AB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:27:59.536+0200" modifiedOn="2012-11-20T23:23:04.697+0100" name="login" multiplicity="1">
         <metadatas xmi:id="_3Ft40CmeEeKJlbl7jX3YYA">
           <metadatas xsi:type="oenv:Annotation" xmi:id="_3FvG8CmeEeKJlbl7jX3YYA" title="Required" body="true"/>
@@ -30,9 +30,24 @@
       <ownedAttributes xmi:id="_6xcqgB9oEeK_mMxxmiaP2A" createdOn="2012-10-26T14:30:25.576+0200" modifiedOn="2012-11-20T23:23:24.215+0100" name="last_name">
         <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
       </ownedAttributes>
-      <ownedReferences xmi:id="_gW95UB90EeK_mMxxmiaP2A" createdOn="2012-10-26T15:53:22.277+0200" modifiedOn="2012-10-26T15:53:36.428+0200" name="Cart" multiplicity="1" type="_tCiOAB9pEeK_mMxxmiaP2A"/>
+      <ownedReferences xmi:id="_gW95UB90EeK_mMxxmiaP2A" createdOn="2012-10-26T15:53:22.277+0200" modifiedOn="2012-12-01T23:34:43.465+0100" name="cart" multiplicity="1" type="_tCiOAB9pEeK_mMxxmiaP2A"/>
+      <ownedFinders xmi:id="_Ya-5QDwHEeKk2MDsPEr8dw" description="Will be used for login" createdOn="2012-12-01T23:35:17.588+0100" modifiedOn="2012-12-01T23:41:43.398+0100" customizedName="findByLoginPassword">
+        <criterions xsi:type="oent:InternalCriterion" xmi:id="_egYKMDwHEeKk2MDsPEr8dw" createdOn="2012-12-01T23:36:10.978+0100" modifiedOn="2012-12-01T23:36:37.046+0100" target="_lAs7AB9oEeK_mMxxmiaP2A">
+          <metadatas xmi:id="_kQvmUDwHEeKk2MDsPEr8dw">
+            <metadatas xsi:type="oenv:Annotation" xmi:id="_kQw0cDwHEeKk2MDsPEr8dw" title="required" body="true"/>
+          </metadatas>
+        </criterions>
+        <criterions xsi:type="oent:InternalCriterion" xmi:id="_e9IXoDwHEeKk2MDsPEr8dw" createdOn="2012-12-01T23:36:20.802+0100" modifiedOn="2012-12-01T23:36:55.650+0100" target="_5wrKAB9oEeK_mMxxmiaP2A">
+          <metadatas xmi:id="_nCLMIDwHEeKk2MDsPEr8dw">
+            <metadatas xsi:type="oenv:Annotation" xmi:id="_nCMaQDwHEeKk2MDsPEr8dw" title="required" body="true"/>
+          </metadatas>
+        </criterions>
+      </ownedFinders>
+      <ownedFinders xmi:id="_Skg_sDwIEeKk2MDsPEr8dw" createdOn="2012-12-01T23:41:47.819+0100" modifiedOn="2012-12-01T23:43:04.880+0100" customizedName="findByLogin">
+        <criterions xsi:type="oent:InternalCriterion" xmi:id="_UVRysDwIEeKk2MDsPEr8dw" description="Will be used for registration (check if user doesn't already exists, we won't check email)" createdOn="2012-12-01T23:42:09.913+0100" modifiedOn="2012-12-01T23:43:04.880+0100" target="_lAs7AB9oEeK_mMxxmiaP2A"/>
+      </ownedFinders>
     </entities>
-    <entities xmi:id="_IjtggB9pEeK_mMxxmiaP2A" description="Contient les informations &quot;g��n��riques&quot; d'un produit (ce qui ne changera pas)" createdOn="2012-10-26T14:31:58.088+0200" modifiedOn="2012-11-20T23:23:43.623+0100" name="ProductInfo">
+    <entities xmi:id="_IjtggB9pEeK_mMxxmiaP2A" description="Contient les informations &quot;g��n��riques&quot; d'un produit (ce qui ne changera pas)" createdOn="2012-10-26T14:31:58.088+0200" modifiedOn="2012-12-01T23:33:06.347+0100" name="ProductInfo">
       <ownedAttributes xmi:id="_P4YoAB9pEeK_mMxxmiaP2A" createdOn="2012-10-26T14:32:47.232+0200" modifiedOn="2012-11-20T23:23:32.577+0100" name="label" multiplicity="1">
         <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
       </ownedAttributes>
@@ -42,8 +57,13 @@
       <ownedAttributes xmi:id="_U-Y4gB9pEeK_mMxxmiaP2A" createdOn="2012-10-26T14:33:21.416+0200" modifiedOn="2012-11-20T23:23:43.623+0100" name="category" multiplicity="0..*">
         <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
       </ownedAttributes>
+      <ownedFinders xmi:id="_unBTETwGEeKk2MDsPEr8dw" createdOn="2012-12-01T23:30:36.994+0100" modifiedOn="2012-12-01T23:33:06.347+0100" customizedName="finder">
+        <criterions xsi:type="oent:InternalCriterion" xmi:id="_3AYxwDwGEeKk2MDsPEr8dw" createdOn="2012-12-01T23:31:36.596+0100" modifiedOn="2012-12-01T23:32:41.723+0100" target="_P4YoAB9pEeK_mMxxmiaP2A"/>
+        <criterions xsi:type="oent:InternalCriterion" xmi:id="_4_j0MDwGEeKk2MDsPEr8dw" createdOn="2012-12-01T23:32:53.618+0100" modifiedOn="2012-12-01T23:32:53.618+0100" target="_UeuhAB9pEeK_mMxxmiaP2A"/>
+        <criterions xsi:type="oent:InternalCriterion" xmi:id="_5X-UMDwGEeKk2MDsPEr8dw" createdOn="2012-12-01T23:33:06.347+0100" modifiedOn="2012-12-01T23:33:06.347+0100" target="_U-Y4gB9pEeK_mMxxmiaP2A"/>
+      </ownedFinders>
     </entities>
-    <entities xmi:id="_a_mNAB9pEeK_mMxxmiaP2A" description="Informations relatives a la vente d'un produit (prix, stock)" createdOn="2012-10-26T14:34:01.808+0200" modifiedOn="2012-11-20T23:24:15.095+0100" name="ProductSale">
+    <entities xmi:id="_a_mNAB9pEeK_mMxxmiaP2A" description="Informations relatives a la vente d'un produit (prix, stock)" createdOn="2012-10-26T14:34:01.808+0200" modifiedOn="2012-12-01T23:39:02.251+0100" name="ProductSale">
       <ownedAttributes xmi:id="_oIDRAB9pEeK_mMxxmiaP2A" createdOn="2012-10-26T14:35:29.936+0200" modifiedOn="2012-11-20T23:23:47.791+0100" name="price" multiplicity="1">
         <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5GlIKwKEd2XLNOhkJIazw"/>
       </ownedAttributes>
@@ -51,8 +71,11 @@
         <type href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5FXAawKEd2XLNOhkJIazw"/>
       </ownedAttributes>
       <ownedReferences xmi:id="_h_hzkB9pEeK_mMxxmiaP2A" createdOn="2012-10-26T14:34:48.777+0200" modifiedOn="2012-11-20T23:24:15.095+0100" name="product_info" multiplicity="1" type="_IjtggB9pEeK_mMxxmiaP2A"/>
+      <ownedFinders xmi:id="_r-RSsDwHEeKk2MDsPEr8dw" createdOn="2012-12-01T23:37:28.795+0100" modifiedOn="2012-12-01T23:39:02.251+0100" customizedName="findByProductInfo">
+        <criterions xsi:type="oent:ExternalCriterion" xmi:id="_3nIMMDwHEeKk2MDsPEr8dw" createdOn="2012-12-01T23:38:58.066+0100" modifiedOn="2012-12-01T23:39:02.251+0100" name="product_info" type="_IjtggB9pEeK_mMxxmiaP2A"/>
+      </ownedFinders>
     </entities>
-    <entities xmi:id="_tCiOAB9pEeK_mMxxmiaP2A" description="Panier d'un Customer" createdOn="2012-10-26T14:36:02.912+0200" modifiedOn="2012-11-20T23:24:06.777+0100" name="Cart">
+    <entities xmi:id="_tCiOAB9pEeK_mMxxmiaP2A" description="Panier d'un Customer" createdOn="2012-10-26T14:36:02.912+0200" modifiedOn="2012-12-01T23:43:36.716+0100" name="Cart">
       <ownedReferences xmi:id="_GiYsgB9qEeK_mMxxmiaP2A" createdOn="2012-10-26T14:38:54.025+0200" modifiedOn="2012-11-20T23:24:06.777+0100" name="products" multiplicity="0..*" type="_w9xUgB9pEeK_mMxxmiaP2A"/>
     </entities>
     <entities xmi:id="_w9xUgB9pEeK_mMxxmiaP2A" createdOn="2012-10-26T14:36:29.256+0200" modifiedOn="2012-11-20T23:24:28.648+0100" name="ProductPurchased">
