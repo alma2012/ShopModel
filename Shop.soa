@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.obeonetwork.dsl.soa:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/2.0.0" xmlns:org.obeonetwork.dsl.soa="http://www.obeonetwork.org/dsl/soa/2.0.0" xmi:id="_Hvn0UB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:00:30.613+0200" modifiedOn="2012-12-01T16:33:12.062+0100">
+<org.obeonetwork.dsl.soa:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/2.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/2.0.0" xmlns:org.obeonetwork.dsl.soa="http://www.obeonetwork.org/dsl/soa/2.0.0" xmi:id="_Hvn0UB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:00:30.613+0200" modifiedOn="2012-12-02T15:40:04.369+0100">
   <ownedComponents xmi:id="_ph1xoB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:05:50.797+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="UsersManager">
     <ownedServices xmi:id="_CciUoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:07:28.350+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="UserAuthentifications">
       <ownedInterface xmi:id="_U2XLoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:09:20.375+0200" modifiedOn="2012-11-13T21:25:29.601+0100" name="UserAuthentifications">
@@ -37,7 +37,7 @@
       </ownedInterface>
     </ownedServices>
   </ownedComponents>
-  <ownedComponents xmi:id="_qR58oB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:05:58.989+0200" modifiedOn="2012-12-01T16:33:12.062+0100" name="ShopManager">
+  <ownedComponents xmi:id="_qR58oB9tEeK_mMxxmiaP2A" createdOn="2012-10-26T15:05:58.989+0200" modifiedOn="2012-12-02T15:40:04.369+0100" name="ShopManager">
     <ownedServices xmi:id="_KENQoB9uEeK_mMxxmiaP2A" createdOn="2012-10-26T15:09:01.201+0200" modifiedOn="2012-12-01T16:33:12.062+0100" name="ProductsSales">
       <ownedInterface xmi:id="_QViZ4B9wEeK_mMxxmiaP2A" createdOn="2012-10-26T15:23:03.351+0200" modifiedOn="2012-12-01T16:33:12.062+0100" name="ProductsSales">
         <metadatas xmi:id="_AV5m4DvLEeKzFqLkIceMxg">
