@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cinematic:CinematicRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cinematic="http://www.obeonetwork.org/dsl/cinematic/3.0.0" xmlns:cinematic-flow="http://www.obeonetwork.org/dsl/cinematic/flow/1.0.0" xmlns:cinematic-view="http://www.obeonetwork.org/dsl/cinematic/view/1.0.0" xmi:id="_HuXtoSXwEeKEXaj7iEH07w" createdOn="2012-11-03T20:53:21.523+0100" modifiedOn="2012-12-03T13:54:35.646+0100" name="Shop">
+<cinematic:CinematicRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cinematic="http://www.obeonetwork.org/dsl/cinematic/3.0.0" xmlns:cinematic-flow="http://www.obeonetwork.org/dsl/cinematic/flow/1.0.0" xmlns:cinematic-view="http://www.obeonetwork.org/dsl/cinematic/view/1.0.0" xmi:id="_HuXtoSXwEeKEXaj7iEH07w" createdOn="2012-11-03T20:53:21.523+0100" modifiedOn="2012-12-05T17:32:25.693+0100" name="Shop">
   <flows xmi:id="_LxoHsCXwEeKEXaj7iEH07w" createdOn="2012-11-03T20:57:28.305+0100" modifiedOn="2012-12-02T17:59:37.560+0100" name="Main">
     <states xsi:type="cinematic-flow:InitialState" xmi:id="_vXAEsCXwEeKEXaj7iEH07w" createdOn="2012-11-03T20:57:52.897+0100" modifiedOn="2012-11-03T20:57:52.897+0100" name="Start"/>
     <states xsi:type="cinematic-flow:ViewState" xmi:id="_0BX6YCX2EeKEXaj7iEH07w" createdOn="2012-11-03T21:41:18.414+0100" modifiedOn="2012-11-03T21:41:34.267+0100" name="Display MainPage" viewContainers="_J8brMCXxEeKEXaj7iEH07w"/>
@@ -51,36 +51,36 @@
     <transitions xmi:id="_ZKI3UDyhEeK9ztOwvAy9Mg" createdOn="2012-12-02T17:57:55.103+0100" modifiedOn="2012-12-02T17:58:36.986+0100" name="payment_to_info" from="_P2zXoDyJEeK9ztOwvAy9Mg" to="_FuS2kDyJEeK9ztOwvAy9Mg"/>
     <transitions xmi:id="_j13aMDyhEeK9ztOwvAy9Mg" createdOn="2012-12-02T17:59:12.400+0100" modifiedOn="2012-12-02T17:59:37.560+0100" name="T_order_to_MainPage" from="_VIZ0IDyJEeK9ztOwvAy9Mg" to="_0BX6YCX2EeKEXaj7iEH07w"/>
   </flows>
-  <viewContainers xmi:id="_J8brMCXxEeKEXaj7iEH07w" createdOn="2012-11-03T21:01:30.026+0100" modifiedOn="2012-12-02T14:01:26.914+0100" name="MainPage" label="Page d'accueil">
+  <viewContainers xmi:id="_J8brMCXxEeKEXaj7iEH07w" createdOn="2012-11-03T21:01:30.026+0100" modifiedOn="2012-12-05T11:53:26.413+0100" name="ShopPage" label="Page d'accueil">
     <widget href="pathmap://cinematic/toolkits/Web#_tGHvxYjeEeGIXsoZxTXHQA"/>
-    <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_lzDMwCXxEeKEXaj7iEH07w" createdOn="2012-11-03T21:04:23.389+0100" modifiedOn="2012-12-02T12:59:00.358+0100" name="ProductsTable">
+    <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_lzDMwCXxEeKEXaj7iEH07w" createdOn="2012-11-03T21:04:23.389+0100" modifiedOn="2012-12-04T18:22:12.668+0100" name="ProductsTable" label="Produits">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvuojeEeGIXsoZxTXHQA"/>
-      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_823oEDx2EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:54:07.773+0100" modifiedOn="2012-12-02T12:54:13.347+0100" name="product_img">
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_823oEDx2EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:54:07.773+0100" modifiedOn="2012-12-04T18:21:54.256+0100" name="product_img" label="Image">
         <widget href="pathmap://cinematic/toolkits/Web#_tGHvpojeEeGIXsoZxTXHQA"/>
       </ownedElements>
-      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_DZCUkDx3EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:54:47.183+0100" modifiedOn="2012-12-02T12:55:18.206+0100" name="product_label">
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_DZCUkDx3EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:54:47.183+0100" modifiedOn="2012-12-04T18:21:58.394+0100" name="product_label" label="Nom">
         <widget href="pathmap://cinematic/toolkits/Web#_tGHvqYjeEeGIXsoZxTXHQA"/>
         <dataBindings xsi:type="cinematic-view:DTOPropertyBinding" xmi:id="_JEjF4Dx3EeK9ztOwvAy9Mg"/>
       </ownedElements>
-      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_OKDAEDx3EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:56:03.501+0100" modifiedOn="2012-12-02T12:56:06.989+0100" name="product_desc">
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_OKDAEDx3EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:56:03.501+0100" modifiedOn="2012-12-04T18:22:03.970+0100" name="product_desc" label="Description">
         <widget href="pathmap://cinematic/toolkits/Web#_tGHvqYjeEeGIXsoZxTXHQA"/>
       </ownedElements>
-      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_SKjoIDx3EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:56:23.021+0100" modifiedOn="2012-12-02T12:56:34.796+0100" name="product_price">
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_SKjoIDx3EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:56:23.021+0100" modifiedOn="2012-12-04T18:22:07.895+0100" name="product_price" label="Prix">
         <widget href="pathmap://cinematic/toolkits/Web#_tGHvqYjeEeGIXsoZxTXHQA"/>
       </ownedElements>
-      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_WaxgIDx3EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:57:11.799+0100" modifiedOn="2012-12-02T12:59:00.357+0100" name="details">
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_WaxgIDx3EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:57:11.799+0100" modifiedOn="2012-12-04T18:22:12.668+0100" name="details" label="Details">
         <widget href="pathmap://cinematic/toolkits/Web#_tGHvrIjeEeGIXsoZxTXHQA"/>
         <events xmi:id="_nrRXkDx3EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:58:47.355+0100" modifiedOn="2012-12-02T12:59:00.357+0100" name="details.onClick">
           <type href="pathmap://cinematic/toolkits/Web#_tGHvrYjeEeGIXsoZxTXHQA"/>
         </events>
       </ownedElements>
     </ownedElements>
-    <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_BeVQgDx5EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:09:05.393+0100" modifiedOn="2012-12-02T13:12:30.346+0100" name="Search">
+    <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_BeVQgDx5EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:09:05.393+0100" modifiedOn="2012-12-04T18:23:23.557+0100" name="Search" label="Rechercher">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvsIjeEeGIXsoZxTXHQA"/>
-      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_JYdOcDx5EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:09:52.069+0100" modifiedOn="2012-12-02T13:09:57.908+0100" name="searchText">
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_JYdOcDx5EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:09:52.069+0100" modifiedOn="2012-12-04T18:23:16.004+0100" name="searchText" label="Texte">
         <widget href="pathmap://cinematic/toolkits/Web#_tGHvvYjeEeGIXsoZxTXHQA"/>
       </ownedElements>
-      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_NmLzIDx5EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:10:31.749+0100" modifiedOn="2012-12-02T13:11:27.909+0100" name="categoryCombo">
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_NmLzIDx5EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:10:31.749+0100" modifiedOn="2012-12-04T18:23:23.557+0100" name="categoryCombo" label="Categorie">
         <widget href="pathmap://cinematic/toolkits/Web#_tGHvoojeEeGIXsoZxTXHQA"/>
       </ownedElements>
       <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_d97doDx5EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:12:07.181+0100" modifiedOn="2012-12-02T13:12:30.346+0100" name="searchButton" label="Ok">
@@ -88,23 +88,23 @@
       </ownedElements>
     </ownedElements>
   </viewContainers>
-  <viewContainers xmi:id="_DhWhUCX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:28:56.259+0100" modifiedOn="2012-12-02T14:32:50.300+0100" name="CartPage" label="Panier">
+  <viewContainers xmi:id="_DhWhUCX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:28:56.259+0100" modifiedOn="2012-12-05T17:32:25.693+0100" name="CartPage" label="Panier">
     <widget href="pathmap://cinematic/toolkits/Web#_tGHvxYjeEeGIXsoZxTXHQA"/>
-    <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_JgIM4CX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:29:26.491+0100" modifiedOn="2012-12-02T14:32:50.300+0100" name="CartTable">
+    <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_JgIM4CX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:29:26.491+0100" modifiedOn="2012-12-05T17:32:25.693+0100" name="CartTable" label="Panier">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvuojeEeGIXsoZxTXHQA"/>
-      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_jyhqwDx_EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:55:44.093+0100" modifiedOn="2012-12-02T13:55:46.452+0100" name="product_img">
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_jyhqwDx_EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:55:44.093+0100" modifiedOn="2012-12-04T18:23:46.112+0100" name="product_img" label="Image">
         <widget href="pathmap://cinematic/toolkits/Web#_tGHvpojeEeGIXsoZxTXHQA"/>
       </ownedElements>
-      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_nxokoDx_EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:56:08.285+0100" modifiedOn="2012-12-02T13:56:10.548+0100" name="product_name">
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_nxokoDx_EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:56:08.285+0100" modifiedOn="2012-12-05T17:32:25.693+0100" name="product_info" label="Nom">
         <widget href="pathmap://cinematic/toolkits/Web#_tGHvqYjeEeGIXsoZxTXHQA"/>
       </ownedElements>
-      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_raCOsDx_EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:56:51.626+0100" modifiedOn="2012-12-02T14:32:50.300+0100" name="quantity">
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_raCOsDx_EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:56:51.626+0100" modifiedOn="2012-12-04T18:23:56.323+0100" name="quantity" label="Quantité">
         <widget href="pathmap://cinematic/toolkits/Web#_tGHvoojeEeGIXsoZxTXHQA"/>
       </ownedElements>
-      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_0h-qoDx_EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:57:31.222+0100" modifiedOn="2012-12-02T13:57:33.899+0100" name="price">
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_0h-qoDx_EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:57:31.222+0100" modifiedOn="2012-12-05T11:11:58.035+0100" name="price" label="Prix">
         <widget href="pathmap://cinematic/toolkits/Web#_tGHvqYjeEeGIXsoZxTXHQA"/>
       </ownedElements>
-      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_3dYr0Dx_EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:58:00.653+0100" modifiedOn="2012-12-02T13:58:25.238+0100" name="remove_product">
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_3dYr0Dx_EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:58:00.653+0100" modifiedOn="2012-12-04T18:24:11.033+0100" name="remove_product" label="Supprimer">
         <widget href="pathmap://cinematic/toolkits/Web#_tGHIkIjeEeGIXsoZxTXHQA"/>
         <events xmi:id="_7NVIUDx_EeK9ztOwvAy9Mg" createdOn="2012-12-02T13:58:22.742+0100" modifiedOn="2012-12-02T13:58:25.238+0100" name="rmProduct_onClick">
           <type href="pathmap://cinematic/toolkits/Web#_tGHIkYjeEeGIXsoZxTXHQA"/>
@@ -118,34 +118,34 @@
       </events>
     </ownedElements>
   </viewContainers>
-  <viewContainers xmi:id="_GSqLUCX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:29:05.055+0100" modifiedOn="2012-12-02T14:01:54.054+0100" name="RegisterPage" label="S'enregistrer">
+  <viewContainers xmi:id="_GSqLUCX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:29:05.055+0100" modifiedOn="2012-12-04T18:25:56.272+0100" name="RegisterPage" label="S'enregistrer">
     <widget href="pathmap://cinematic/toolkits/Web#_tGHvxYjeEeGIXsoZxTXHQA"/>
-    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_PVIRYCX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:30:57.880+0100" modifiedOn="2012-11-03T21:32:25.560+0100" name="login_text" label="Username">
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_PVIRYCX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:30:57.880+0100" modifiedOn="2012-12-04T18:25:15.445+0100" name="login_text" label="Login">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvvYjeEeGIXsoZxTXHQA"/>
     </ownedElements>
     <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_P_dn0CX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:31:15.467+0100" modifiedOn="2012-11-03T21:32:28.912+0100" name="email_text" label="Email">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvvYjeEeGIXsoZxTXHQA"/>
     </ownedElements>
-    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_Qa3KYCX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:31:23.891+0100" modifiedOn="2012-11-03T21:32:32.176+0100" name="password_text" label="Password">
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_Qa3KYCX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:31:23.891+0100" modifiedOn="2012-12-04T18:25:24.229+0100" name="password_text" label="Mot de passe">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvs4jeEeGIXsoZxTXHQA"/>
     </ownedElements>
-    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_RFliYCX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:31:28.643+0100" modifiedOn="2012-11-03T21:32:41.108+0100" name="password_conf_text" label="Password Confirmation">
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_RFliYCX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:31:28.643+0100" modifiedOn="2012-12-04T18:25:34.302+0100" name="password_conf_text" label="Mot de passe">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvs4jeEeGIXsoZxTXHQA"/>
     </ownedElements>
-    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_RilAYCX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:31:47.723+0100" modifiedOn="2012-11-03T21:39:33.692+0100" name="register_button" label="Register">
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_RilAYCX1EeKEXaj7iEH07w" createdOn="2012-11-03T21:31:47.723+0100" modifiedOn="2012-12-04T18:25:51.021+0100" name="register_button" label="Valider">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHIkIjeEeGIXsoZxTXHQA"/>
       <events xmi:id="_ZTe7cCX2EeKEXaj7iEH07w" createdOn="2012-11-03T21:38:23.587+0100" modifiedOn="2012-11-03T21:39:33.692+0100" name="register_button.onClick">
         <type href="pathmap://cinematic/toolkits/Web#_tGHIkYjeEeGIXsoZxTXHQA"/>
       </events>
     </ownedElements>
-    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_LD2goTx2EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:48:34.110+0100" modifiedOn="2012-12-02T12:50:23.555+0100" name="cancel_button">
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_LD2goTx2EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:48:34.110+0100" modifiedOn="2012-12-04T18:25:56.272+0100" name="cancel_button" label="Annuler">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHIkIjeEeGIXsoZxTXHQA"/>
       <events xmi:id="_UX9JQDx2EeK9ztOwvAy9Mg" createdOn="2012-12-02T12:49:29.940+0100" modifiedOn="2012-12-02T12:50:23.555+0100" name="cancel_button.onClick">
         <type href="pathmap://cinematic/toolkits/Web#_tGHIkYjeEeGIXsoZxTXHQA"/>
       </events>
     </ownedElements>
   </viewContainers>
-  <viewContainers xmi:id="_hrCyIDyFEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:38:26.644+0100" modifiedOn="2012-12-02T14:42:22.461+0100" name="informationsPage" label="informations">
+  <viewContainers xmi:id="_hrCyIDyFEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:38:26.644+0100" modifiedOn="2012-12-04T18:27:29.660+0100" name="InformationsPage" label="Informations">
     <widget href="pathmap://cinematic/toolkits/Web#_tGHvxYjeEeGIXsoZxTXHQA"/>
     <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_qgnEoDyFEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:39:30.182+0100" modifiedOn="2012-12-02T14:39:42.078+0100" name="firstName_text" label="Prénom">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvvYjeEeGIXsoZxTXHQA"/>
@@ -153,7 +153,7 @@
     <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_v7A30DyFEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:39:56.314+0100" modifiedOn="2012-12-02T14:40:02.036+0100" name="lastName" label="Nom">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvvYjeEeGIXsoZxTXHQA"/>
     </ownedElements>
-    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_zdqfMDyFEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:40:23.526+0100" modifiedOn="2012-12-02T14:40:30.510+0100" name="address" label="adresse">
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_zdqfMDyFEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:40:23.526+0100" modifiedOn="2012-12-04T18:26:13.513+0100" name="address" label="Adresse">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvwYjeEeGIXsoZxTXHQA"/>
     </ownedElements>
     <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_975YoDyFEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:41:29.934+0100" modifiedOn="2012-12-02T14:41:36.292+0100" name="phone" label="Telephone">
@@ -166,9 +166,9 @@
       <widget href="pathmap://cinematic/toolkits/Web#_tGHIkIjeEeGIXsoZxTXHQA"/>
     </ownedElements>
   </viewContainers>
-  <viewContainers xmi:id="_StoiMDyGEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:43:52.966+0100" modifiedOn="2012-12-02T14:50:53.485+0100" name="paymentPage" label="Paiement">
+  <viewContainers xmi:id="_StoiMDyGEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:43:52.966+0100" modifiedOn="2012-12-04T18:27:40.061+0100" name="PaymentPage" label="Paiement">
     <widget href="pathmap://cinematic/toolkits/Web#_tGHvxYjeEeGIXsoZxTXHQA"/>
-    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_YSOzMDyGEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:44:36.294+0100" modifiedOn="2012-12-02T14:44:57.099+0100" name="cardType" label="carte bancaire">
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_YSOzMDyGEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:44:36.294+0100" modifiedOn="2012-12-04T18:26:30.679+0100" name="cardType" label="Carte bancaire">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvoojeEeGIXsoZxTXHQA"/>
     </ownedElements>
     <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_fM9JoDyGEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:45:18.030+0100" modifiedOn="2012-12-02T14:45:27.252+0100" name="cardNumber" label="Numéro carte">
@@ -180,26 +180,26 @@
     <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_vu8VQDyGEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:47:11.711+0100" modifiedOn="2012-12-02T14:47:18.671+0100" name="ownerName" label="Nom">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvvYjeEeGIXsoZxTXHQA"/>
     </ownedElements>
-    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_zoCtwDyGEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:47:31.668+0100" modifiedOn="2012-12-02T14:47:57.103+0100" name="crypto" label="crypto">
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_zoCtwDyGEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:47:31.668+0100" modifiedOn="2012-12-04T18:26:42.431+0100" name="crypto" label="Crypto">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvvYjeEeGIXsoZxTXHQA"/>
     </ownedElements>
-    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_Ll08kDyHEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:50:13.334+0100" modifiedOn="2012-12-02T14:50:24.364+0100" name="validButton" label="valider">
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_Ll08kDyHEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:50:13.334+0100" modifiedOn="2012-12-04T18:26:47.648+0100" name="validButton" label="Valider">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHIkIjeEeGIXsoZxTXHQA"/>
     </ownedElements>
     <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_QHOEIDyHEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:50:44.111+0100" modifiedOn="2012-12-02T14:50:53.485+0100" name="cancelButton" label="Annuler">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHIkIjeEeGIXsoZxTXHQA"/>
     </ownedElements>
   </viewContainers>
-  <viewContainers xmi:id="_Wz1GEDyHEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:51:30.639+0100" modifiedOn="2012-12-02T14:54:47.819+0100" name="orderPage" label="Commande">
+  <viewContainers xmi:id="_Wz1GEDyHEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:51:30.639+0100" modifiedOn="2012-12-04T18:27:44.782+0100" name="OrderPage" label="Commande">
     <widget href="pathmap://cinematic/toolkits/Web#_tGHvxYjeEeGIXsoZxTXHQA"/>
-    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_yVLiQDyHEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:54:32.622+0100" modifiedOn="2012-12-02T14:54:42.708+0100" name="label" label="commande">
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_yVLiQDyHEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:54:32.622+0100" modifiedOn="2012-12-04T18:27:00.196+0100" name="label" label="Commande">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvqYjeEeGIXsoZxTXHQA"/>
     </ownedElements>
     <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_rXk28DyHEeK9ztOwvAy9Mg" createdOn="2012-12-02T14:54:02.910+0100" modifiedOn="2012-12-02T14:54:14.295+0100" name="okButton" label="Ok">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHIkIjeEeGIXsoZxTXHQA"/>
     </ownedElements>
   </viewContainers>
-  <viewContainers xmi:id="_GEWusDygEeK9ztOwvAy9Mg" createdOn="2012-12-02T17:48:39.234+0100" modifiedOn="2012-12-02T17:49:54.438+0100" name="productDetails">
+  <viewContainers xmi:id="_GEWusDygEeK9ztOwvAy9Mg" createdOn="2012-12-02T17:48:39.234+0100" modifiedOn="2012-12-04T18:27:49.107+0100" name="ProductDetails">
     <widget href="pathmap://cinematic/toolkits/Web#_tGHvxYjeEeGIXsoZxTXHQA"/>
     <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_KLN2YDygEeK9ztOwvAy9Mg" createdOn="2012-12-02T17:49:01.713+0100" modifiedOn="2012-12-02T17:49:09.503+0100" name="details" label="Details">
       <widget href="pathmap://cinematic/toolkits/Web#_tGHvwYjeEeGIXsoZxTXHQA"/>
